@@ -1,10 +1,10 @@
-# **************************************  PART A ************************************************
+
 def func_a(no):  # First function which takes an integer and transforms it to a list of digits
     if no <= 0:
         return []
     return func_a(no // 10) + [no % 10]
 
-# **************************************  PART B ************************************************
+
 # Second function to take list of Integers and an 1 digit y to perform the given steps in the homework
 
 
@@ -17,7 +17,7 @@ def func_b(nums_list, num):
         return [num] * size + nums_list
 
 
-# **************************************  PART C ************************************************
+
 # Part C (main) to Read 2 integers x and y (y should be 1-digit), call the first function with x,
 # and send the resulting list, and y to the second function. Lastly, print the resulting list.
 
